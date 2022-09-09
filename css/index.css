@@ -1,0 +1,20 @@
+*{
+   margin:0px;
+   padding: 0px; 
+}
+
+body{
+    background-color:  teal;
+}
+
+
+@media all and (min-width: 720px) and (max-width: 1024px) {
+    body {
+      background-color: pink;
+    }
+}
+@media all and (min-width: 320px) and (max-width: 720px) {
+    body {
+      background-color: brown;
+    }
+  }

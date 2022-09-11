@@ -4,7 +4,20 @@
 }
 
 body{
-    background-color:  teal;
+    background-color:  whitesmoke;
+
+}
+#head{
+  background-color: #dae3e7 ;
+  border: 1 px solid red;
+  margin: auto;
+  display: flex;
+}
+#head>img{
+  border-radius: 30% 30% 30% 30%;
+
+  height: 200px;
+  width: 300px;
 }
 
 

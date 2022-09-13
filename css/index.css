@@ -23,32 +23,7 @@
   width: 300px;
 } */
 
-#side{
-  background-color: rgb(203, 202, 202);
- 
- height: 3vh;
- font-family: 'Fira Sans', sans-serif;
-}
-#side>nav{
-  padding: 45px;
- 
-}
-#side nav li{
-  list-style: none;
-  font-size: 30px;
-  padding: 33px 0;
-}
-#side nav li a{
-text-decoration: none;
-color:black;
-}
-#container{
-  /* display: flex; */
-}
-.main{
-  /* background-color: aqua; */
-  width: 90vw;
-}
+
 
 @media all and (min-width: 1024px) and (max-width: 4000px) {
   #info{
@@ -59,11 +34,59 @@ color:black;
     margin-left:150px;
     height:58vh;
     width: 90%;
+    margin-top:150px;
     
     
     display: flex;
     justify-content: space-around;
     font-family: 'Source Code Pro', monospace;
+  }
+  #side{
+    background-color: rgb(203, 202, 202);
+   /* border:1px solid red; */
+   display: flex;
+   height: 80px;
+   width:100%;
+   margin:auto;
+   font-family: 'Fira Sans', sans-serif;
+   text-align: center;
+   align-items: center;
+   justify-content:end;
+  }  #side>div{
+    /* border:1px solid red; */
+    padding:5px;
+    margin-right:50px;
+    display: flex;
+   
+  }
+  #side div h2 {
+    list-style: none;
+    font-size: 25x;
+    margin:30px;
+    padding: 10px;
+  }
+  #side div h2 a{
+  text-decoration: none;
+  color:black;
+  }
+  #container{
+    /* display: flex; */
+  
+  }
+  .main{
+    /* background-color: aqua; */
+    width: 90vw;
+  }
+  #container2{
+    /* border:1px solid red; */
+    width:90%;
+    margin:auto;
+    height:200px;
+    
+   text-align: center;
+   font-size: 40px;
+   font-weight: bold;
+   font-family: 'Fira Sans', sans-serif;
   }
 }
 
@@ -107,6 +130,7 @@ font-size: 30px;
 .buttons button:hover{
   background-color: white;
   color:teal;
+ 
 }
 
 
@@ -114,6 +138,44 @@ font-size: 30px;
     body {
        background-color: rgb(223, 207, 190);
     }
+    #side{
+      background-color: rgb(203, 202, 202);
+     /* border:1px solid red; */
+     display: flex;
+     height: 80px;
+     width:100%;
+     margin:auto;
+     font-family: 'Fira Sans', sans-serif;
+     text-align: center;
+     align-items: center;
+     justify-content:end;
+    }
+    #side>div{
+      /* border:1px solid red; */
+      padding:5px;
+      margin-right:50px;
+      display: flex;
+     
+    }
+    #side div h2 {
+      list-style: none;
+      font-size: 20x;
+      margin:15px;
+      padding: 10px;
+    }
+    #side div h2 a{
+    text-decoration: none;
+    color:black;
+    }
+    #container{
+      /* display: flex; */
+    
+    }
+    .main{
+      /* background-color: aqua; */
+      width: 90vw;
+    }
+
     #info{
       /* background-color: green; */
       /* background-color: rgb(203, 202, 202); */
@@ -155,6 +217,7 @@ font-size: 30px;
     font-size: 20px;
     }
     .moreabout{
+      margin-top:5px;
       font-size: 15px;
      font-stretch: extra-condensed;
     }
@@ -170,12 +233,53 @@ font-size: 30px;
       font-size: 15px;
       cursor: pointer;
     }
+
     
 }
 @media all and (min-width: 320px) and (max-width: 540px) {
     body {
       
       background-color: rgb(203, 202, 202);
+    
+    }
+    #side{
+      background-color: rgb(203, 202, 202);
+     /* border:1px solid red; */
+     display: flex;
+     height: 150px;
+     width:100%;
+     margin:auto;
+     font-family: 'Fira Sans', sans-serif;
+     text-align: center;
+     align-items: center;
+     justify-content:center;
+    }
+    #side>div{
+      /* border:1px solid red; */
+      padding:5px;
+      /* margin-right:50px; */
+      /* display: flex; */
+      width:100%;
+    }
+    #side div h2 {
+      list-style: none;
+      font-size: 10x;
+      background-color: white;
+      
+      margin:5px;
+      /* padding: 10px; */
+    }
+    #side div h2 a{
+    text-decoration: none;
+    color:black;
+    }
+    #container{
+      /* display: flex; */
+    
+    }
+    .main{
+      /* background-color: aqua; */
+      width: 90vw;
     }
     #info{
       /* background-color: green; */
@@ -185,6 +289,7 @@ font-size: 30px;
       margin-left:50px;
       height:auto;
       width:auto;
+      margin-top:50px;
       
       /* margin-left: 150px; */
       /* justify-content: space-around; */

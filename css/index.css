@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+
 *{
-   margin:0px;
-   padding: 0px; 
+   margin:0;
+   padding: 0; 
 }
 
-body{
+/* body{
     background-color:  whitesmoke;
 
 }
@@ -18,16 +21,216 @@ body{
 
   height: 200px;
   width: 300px;
+} */
+
+#side{
+  background-color: rgb(203, 202, 202);
+ 
+ height: 3vh;
+ font-family: 'Fira Sans', sans-serif;
+}
+#side>nav{
+  padding: 45px;
+ 
+}
+#side nav li{
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+#side nav li a{
+text-decoration: none;
+color:black;
+}
+#container{
+  /* display: flex; */
+}
+.main{
+  /* background-color: aqua; */
+  width: 90vw;
 }
 
-
-@media all and (min-width: 720px) and (max-width: 1024px) {
-    body {
-      background-color: pink;
-    }
-}
-@media all and (min-width: 320px) and (max-width: 720px) {
-    body {
-      background-color: brown;
-    }
+@media all and (min-width: 1024px) and (max-width: 4000px) {
+  #info{
+    /* background-color: green; */
+    /* background-color: rgb(203, 202, 202); */
+    /* border: 1px solid red; */
+    margin:auto;
+    margin-left:150px;
+    height:58vh;
+    width: 90%;
+    
+    
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Source Code Pro', monospace;
   }
+}
+
+.devInfo{
+  /* display: flex; */
+  justify-content: center;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+.devPic>img{
+  height: auto;
+   width:auto;
+  
+}
+.hello{
+font-size: 65px;
+}
+.name{
+font-size: 40px;
+font-weight: bold;
+font-family: 'Fira Sans', sans-serif;
+}
+.about{
+font-size: 30px;
+}
+.moreabout{
+  font-size: 20px;
+}
+.buttons{
+  margin-top: 34px;
+}
+.buttons button{
+  padding:10px;
+  color:white;
+  background-color:teal;
+  border-radius: 25px;
+  margin:0px 3px;
+  font-size: 21px;
+  cursor: pointer;
+}
+.buttons button:hover{
+  background-color: white;
+  color:teal;
+}
+
+
+@media all and (min-width: 540px) and (max-width: 1024px) {
+    body {
+       background-color: rgb(223, 207, 190);
+    }
+    #info{
+      /* background-color: green; */
+      /* background-color: rgb(203, 202, 202); */
+      /* border: 1px solid red; */
+      margin:auto;
+      margin-left:50px;
+      height:auto;
+      width:auto;
+      
+      
+      display: flex;
+      /* justify-content: space-around; */
+      
+      justify-content: space-between;
+      font-family: 'Source Code Pro', monospace;
+    }
+    .devInfo{
+      /* display: flex; */
+      justify-content: center;
+      /* flex-direction: column; */
+      /* justify-content: space-between; */
+    }
+    .devPic>img{
+
+      height: 350px;
+      width:200px;
+       
+      
+    }
+    .hello{
+    font-size: 40px;
+    }
+    .name{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    }
+    .about{
+    font-size: 20px;
+    }
+    .moreabout{
+      font-size: 15px;
+     font-stretch: extra-condensed;
+    }
+    .buttons{
+      margin-top: 34px;
+    }
+    .buttons button{
+      padding:10px;
+      color:white;
+      background-color:teal;
+      border-radius: 25px;
+      margin:0px 3px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    
+}
+@media all and (min-width: 320px) and (max-width: 540px) {
+    body {
+      
+      background-color: rgb(203, 202, 202);
+    }
+    #info{
+      /* background-color: green; */
+      /* background-color: rgb(203, 202, 202); */
+      /* border: 1px solid red; */
+      margin:auto;
+      margin-left:50px;
+      height:auto;
+      width:auto;
+      
+      /* margin-left: 150px; */
+      /* justify-content: space-around; */
+      
+      /* justify-content: space-between; */
+      font-family: 'Source Code Pro', monospace;
+    }
+    .devInfo{
+      /* display: flex; */
+      /* justify-content: center; */
+      /* flex-direction: column; */
+      /* justify-content: space-between; */
+    }
+    .devPic>img{
+      margin-top: 40px;
+      height: 300px;
+      width:200px;
+       
+      
+    }
+    .hello{
+    font-size: 40px;
+    }
+    .name{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    }
+    .about{
+    font-size: 20px;
+    }
+    .moreabout{
+      font-size: 15px;
+    }
+    .buttons{
+      margin-top: 34px;
+    }
+    .buttons button{
+      padding:10px;
+      color:white;
+      background-color:teal;
+      border-radius: 25px;
+      margin:0px 3px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+
+  } 

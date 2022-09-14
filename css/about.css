@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Source+Code+Pro:wght@300&display=swap');
 
 
-
+body { background-image:url('/Kandpalgokul01.github.io/Resource/gif.gif'); background-repeat:repeat; }
 
 
 @media all and (min-width: 1024px) and (max-width: 4000px) {
@@ -63,7 +63,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
   }
   
  
-body { background-image:url('/Kandpalgokul01.github.io/Resource/gif.gif'); background-repeat:repeat; }
+/* body { background-image:url('/Kandpalgokul01.github.io/Resource/gif.gif'); background-repeat:repeat; } */
 
 }
 
@@ -126,7 +126,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
     /* grid-template-rows: 100px 100px; */
     gap:20px 20px
   }
-body { background-image:url('/Kandpalgokul01.github.io/Resource/gif.gif'); background-repeat:repeat; }
+/* body { background-image:url('/Kandpalgokul01.github.io/Resource/gif.gif'); background-repeat:repeat; } */
 
 }
 @media all and (min-width: 320px) and (max-width: 540px) {
@@ -190,6 +190,6 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
     /* grid-template-rows: 100px 100px; */
     gap:20px 20px
   }
-body { background-image:url('/Kandpalgokul01.github.io/Resource/gif.gif'); background-repeat:repeat; }
+
 
 }

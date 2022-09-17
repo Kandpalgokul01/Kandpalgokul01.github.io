@@ -1,61 +1,309 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gokul Kandpal Back-end Developer</title>
-    <link rel="stylesheet" href="css/index.css">
-</head>
+    <title> Gokul Portfolio Website  </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
 <body>
- <div id="container">
-        <div id="side">
-            
-            
-            <div>
-                <h2><a href="./index.html">Home</a> </h2>
-                <h2><a href="./about.html">About</a> </h2>
-                <h2><a href="">Resume</a> </h2>
-                
-                <h2><a href="project.html">Project</a> </h2>
-            </div>
-                  
-     
-              
-        
-        
-            
-        </div>
-   
-    <div class="main">
-        <div id="info">
-            <div class="devInfo">
-                
-                <div class="hello">Hi  I am</div>
-                <div class="name">Gokul Chandra Kandpal</div>
-                <div class="about">Back-end Developer</div>
-                <div class="moreabout">I am Passionate java Back-end Developer,
-                    with knowledge of Core java,
-                    Advance java,and Deep knowledge of Object Oriented programing.
-                    and apart from backend have knowledge of HTML,CSS,Javascript in Frontend.
-                </div>
-                <div class="buttons">
-                    <button>Resume</button>
-                    <button>Contact me</button>
-                </div>
-            </div>
-            <div class="devPic">
-                <img src="./Resource/gk.jpg" alt="gokul kandpal">
-            </div>
-        </div>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Gokul</a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      <!-- <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div> -->
     </div>
-</div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
 
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I'm Gokul Kandpal</div>
+       <div class="text-three">Back-end Developer</div>
+       <div class="text-four">From Uttarakhand</div>
+     </div>
+     <div class="button">
+      <!-- Resume button here -->
+       <!-- <button>Resume</button> -->
+     </div>
+   </div>
+ </section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="Images/gk.jpg" alt="">
+    </div>
+    <div class="right">
+      <div class="topic">Back-end Developer</div>
+      <p>Passion-driven learner and a Back-end developer with the ability to write clean, reusable, optimised code.
+        Skilled in building and maintaining  in java based applications. 
+        Strongly
+        interested in obtaining a Software Developer
+        position to work on enhancing the product
+        experience
+        </p>
+        <!-- Observant and innovative problem-solver,
+        proficient team player who actively
+        contributes to their group to complete tasks,
+        meet goals, and manage projects.</p> -->
+      <div class="button">
+      
+       <button> <a href="/Images/Gokul_Chandra Kandpal_Resume _.pdf" download>Resume</a></button>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>My Skills</span></div>
+   <div class="skills-details">
+     <!-- <div class="text">
+       <div class="topic">Masai School</div>
+       <p>Learns </p>
+       <div class="experience">
+         <div class="num"></div>
+         <div class="exp"><br> </div>
+       </div>
+     </div> -->
+     <div class="boxes">
+      <div class="box">
+        <div class="topic">Front-end </div>
+        <div class="topic">Development</div>
+        <div class="per"></div>
+      </div>
+      <div class="box">
+        <div class="topic">Back-end</div>
+        <div class="topic">Development</div>
+        <!-- <div class="per">300+hrs </div> -->
+      </div>
+      <div class="box">
+        <div class="topic">Data Structure </div>
+        <div class="topic">And  Algorithm</div>
+        <!-- <div class="per">100+ hrs</div> -->
+      </div>
+      <div class="box">
+        <div class="topic">Git</div>
+        <div class="topic">GitHub</div>
+        <!-- <div class="per">60%</div> -->
+      </div>
+    </div>
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">Team </div>
+         <div class="topic">Work</div>
+         <div class="per"></div>
+       </div>
+       <div class="box">
+         <div class="topic">Time </div>
+         <div class="topic">management</div>
+         <!-- <div class="per">300+hrs </div> -->
+       </div>
+       <div class="box">
+         <div class="topic">Adaptability </div>
+         <div class="topic"></div>
+         <!-- <div class="per">100+ hrs</div> -->
+       </div>
+       <div class="box">
+         <div class="topic">Openness to </div>
+         <div class="topic">Feedback<div>
+         <!-- <div class="per">60%</div> -->
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<!-- Tech Skill -->
+<section class="skill" id="skill">
+  <div class="title"><span>My Tech Skills</span></div>
+
+  <div class="skill-wrapper">
+    <div class="first-set animate__animated animate__pulse">
+      <img
+        src="Images/java.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="Images/spring.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="Images/hibernate2.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="Images/mysql-logo.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="Images/aws.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+    </div>
+
+    <div class="second-set animate__animated animate__pulse">
+      <img
+        src="Images/html.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="Images/css3.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="Images/javascript.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="Images/github.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="Images/git.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+    </div>
+  </div>
+</section> 
+<!-- Skill -->
+
+  <!-- Projects section -->
+  <section class="projects" id="project">
+    <div class="title"><span>Some of My Projects</span></div>
+    <div class="projects-container">
+      <!-- <div class="project-container project-card"> -->
+
+
+        
+        
+      <!-- </div> -->
+     <div class="project-container project-card">
+      <div class="topic">TripVillas Clone</div>
+        <img
+          src="Images/Porject tripvillas.png"
+          alt="netflic-clone"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title"></h3>
+        <p class="project-details">
+          <ul>
+            <li>It is a e-Tourism websit where, user can login, search , and book hotels. </li>
+            <li>A collaborative project, built in 5 days by a team of 5 members</li>
+            <li>HTML | CSS | JavaScript</li>
+            
+          </ul>
+        </p>
+        <div class="link">
+          <a href="https://polite-muffin-b118b2.netlify.app/index.html" target="_blank" class="project-link">Live</a>
+          <a href="https://github.com/1301yashraj/fleet-lock-616" target="_blank" class="project-link">Source</a>
+        </div>
+       
+      </div>
+       <!-- <div class="project-container project-card">
+        <img
+          src="assets/images/greenyEarth.png"
+          alt="greeny-earth"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">Greeny Earth</h3>
+        <p class="project-details">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+          ratione vel inventore labore commodi modi quos culpa aut saepe!
+          Alias!
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div> -->
+    </div>
+  </section>
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="text">
+      <!-- <div class="topic">Have Any Project?</div> -->
+      <p> Looking forward to joining a progressive and challenging work environment.</p>
+       <span>kandpalgokul01@gmail.com</span>
+       <span> <a href="mailto:webmaster@gmail.com">Gokul Chandra Kandpal</a></span>
+       <span>7895484217</span>
+       <span><a href="tel:+917895484217">Call Gokul</a></span>
+      <div class="button">
+        <!-- <button>Let's Chat</button> -->
+        <div class="title"><span>Let's Connect!</span></div>
+        <div class="media-icons">
+          <a href="https://www.linkedin.com/in/gokulkanpal217/"><i class="fab fa-linkedin fa-3x"></i></a>
+          <a href="https://github.com/Kandpalgokul01"><i class="fab fa-github fa-3x"></i></a>
+          <!-- <a href=""><i class="fab fa-instagram fa-3x"></i></a>
+          <a href="#"><i class="fab fa-gmail fa-3x"></i></a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="#">Gokul Kandpal</a> | &#169; </span>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
-<script src="./index.js"></script>
-
-
-
-
-

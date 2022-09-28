@@ -425,7 +425,26 @@ ul li{
 }
 /* Projects section ends */
 
-
+/* Github calender */
+.gihubs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#F0F8FF;
+}
+.gihub-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+.gihub-container {
+  text-align: center;
+  width: 70.875rem;
+  
+  padding: 1rem;
+}
 
 /* My Services CSS */
 .services .boxes{
